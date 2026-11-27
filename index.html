@@ -200,6 +200,10 @@
   .card p{color:var(--soft);margin:8px 0 12px;font-size:15.5px}
   .tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px;padding:0;list-style:none}
   .tags li{background:var(--chip);border-radius:999px;padding:2px 12px;font-size:13px;font-weight:700}
+  .card{overflow:hidden}
+  .card .ph{display:block;width:calc(100% + 44px);max-width:none;height:auto;aspect-ratio:4/3;object-fit:cover;margin:-22px -22px 0;background:var(--chip)}
+  .card .ph + .ic{margin-top:-27px;position:relative;border:3px solid var(--surface)}
+  .hero-card .ph{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:14px;margin-bottom:18px;background:rgba(255,255,255,.08)}
   .card a.more{margin-top:auto;font-weight:800;color:var(--wa);text-decoration:none;display:inline-flex;gap:6px;align-items:center}
   .card a.more svg{width:18px;height:18px}
 
@@ -333,6 +337,7 @@
       </div>
     </div>
     <aside class="hero-card" aria-labelledby="how-title">
+      <img class="ph" src="img/pickup-480.webp" srcset="img/pickup-480.webp 480w, img/pickup-800.webp 800w" sizes="(min-width:900px) 440px, 100vw" width="800" height="600" decoding="async" alt="فك ونقل الأثاث المستعمل مجاناً بعد شرائه من العميل بالرياض">
       <h2 id="how-title">بيع أثاثك في 3 خطوات</h2>
       <ol class="steps">
         <li><b>1</b><div><strong>صوّر وأرسل</strong><p>أرسل صور الأثاث أو الأجهزة على الواتساب مع اسم الحي.</p></div></li>
@@ -362,6 +367,7 @@
     </div>
     <div class="grid g3">
       <article class="card" id="bedrooms">
+        <img class="ph" src="img/bedroom-480.webp" srcset="img/bedroom-480.webp 480w, img/bedroom-800.webp 800w" sizes="(min-width:1000px) 360px, (min-width:640px) 50vw, 100vw" width="800" height="600" loading="lazy" decoding="async" alt="غرفة نوم مستعملة بحالة جيدة — شراء غرف نوم مستعملة بالرياض">
         <span class="ic"><svg role="img" aria-label="شراء غرف نوم مستعملة بالرياض"><use href="#i-bed"/></svg></span>
         <h3>شراء غرف نوم مستعملة</h3>
         <p>نشتري غرف النوم الكاملة والمفردة: السرير، الدولاب، التسريحة والكومودينات، سواء كانت خشب طبيعي أو MDF أو غرف أطفال وشباب.</p>
@@ -369,6 +375,7 @@
         <a class="more" data-wa data-wa-msg="أبغى أبيع غرفة نوم مستعملة" href="https://wa.me/966551141527" target="_blank" rel="noopener">سعّر غرفتك الآن <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </article>
       <article class="card" id="majlis">
+        <img class="ph" src="img/majlis-480.webp" srcset="img/majlis-480.webp 480w, img/majlis-800.webp 800w" sizes="(min-width:1000px) 360px, (min-width:640px) 50vw, 100vw" width="800" height="600" loading="lazy" decoding="async" alt="كنب ومجلس مستعمل — شراء مجالس وكنب مستعمل بالرياض">
         <span class="ic"><svg role="img" aria-label="شراء مجالس وكنب مستعمل بالرياض"><use href="#i-sofa"/></svg></span>
         <h3>شراء مجالس وكنب مستعمل</h3>
         <p>نشتري الكنب الأمريكي والمودرن، المجالس العربية، طاولات الطعام والسفرة، والسجاد والستائر بحالة جيدة.</p>
@@ -376,6 +383,7 @@
         <a class="more" data-wa data-wa-msg="أبغى أبيع كنب / مجلس مستعمل" href="https://wa.me/966551141527" target="_blank" rel="noopener">سعّر مجلسك الآن <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </article>
       <article class="card" id="ac">
+        <img class="ph" src="img/ac-480.webp" srcset="img/ac-480.webp 480w, img/ac-800.webp 800w" sizes="(min-width:1000px) 360px, (min-width:640px) 50vw, 100vw" width="800" height="600" loading="lazy" decoding="async" alt="مكيف اسبليت مستعمل — شراء مكيفات مستعملة بالرياض">
         <span class="ic"><svg role="img" aria-label="شراء مكيفات مستعملة بالرياض"><use href="#i-ac"/></svg></span>
         <h3>شراء مكيفات مستعملة بالرياض</h3>
         <p>نشتري المكيفات الاسبليت والشباك والمركزية والدواليب من جميع الماركات، شغالة أو تحتاج صيانة، والفك والتنزيل علينا.</p>
@@ -383,6 +391,7 @@
         <a class="more" data-wa data-wa-msg="أبغى أبيع مكيفات مستعملة" href="https://wa.me/966551141527" target="_blank" rel="noopener">سعّر مكيفاتك الآن <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </article>
       <article class="card" id="appliances">
+        <img class="ph" src="img/appliances-480.webp" srcset="img/appliances-480.webp 480w, img/appliances-800.webp 800w" sizes="(min-width:1000px) 360px, (min-width:640px) 50vw, 100vw" width="800" height="600" loading="lazy" decoding="async" alt="غسالة ونشافة مستعملة — شراء أجهزة كهربائية مستعملة بالرياض">
         <span class="ic"><svg role="img" aria-label="شراء أجهزة كهربائية مستعملة بالرياض"><use href="#i-fridge"/></svg></span>
         <h3>شراء أجهزة كهربائية مستعملة</h3>
         <p>ثلاجات، فريزرات، غسالات، نشافات، أفران وطباخات، شاشات وبرادات مياه — نشتري الأجهزة الكهربائية المستعملة بأفضل سعر في الرياض.</p>
@@ -390,6 +399,7 @@
         <a class="more" data-wa data-wa-msg="أبغى أبيع أجهزة كهربائية مستعملة" href="https://wa.me/966551141527" target="_blank" rel="noopener">سعّر أجهزتك الآن <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </article>
       <article class="card" id="kitchens">
+        <img class="ph" src="img/kitchen-480.webp" srcset="img/kitchen-480.webp 480w, img/kitchen-800.webp 800w" sizes="(min-width:1000px) 360px, (min-width:640px) 50vw, 100vw" width="800" height="600" loading="lazy" decoding="async" alt="مطبخ مستعمل — شراء مطابخ مستعملة بالرياض">
         <span class="ic"><svg role="img" aria-label="شراء مطابخ مستعملة بالرياض"><use href="#i-kitchen"/></svg></span>
         <h3>شراء مطابخ مستعملة</h3>
         <p>نشتري مطابخ الألمنيوم والخشب والألوميتال المستعملة مع الفك الاحترافي بدون تكسير، إضافة إلى الأفران المدمجة والشفاطات.</p>
@@ -397,6 +407,7 @@
         <a class="more" data-wa data-wa-msg="أبغى أبيع مطبخ مستعمل" href="https://wa.me/966551141527" target="_blank" rel="noopener">سعّر مطبخك الآن <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </article>
       <article class="card" id="office">
+        <img class="ph" src="img/office-480.webp" srcset="img/office-480.webp 480w, img/office-800.webp 800w" sizes="(min-width:1000px) 360px, (min-width:640px) 50vw, 100vw" width="800" height="600" loading="lazy" decoding="async" alt="أثاث مكاتب مستعمل — شراء أثاث شركات ومكاتب بالرياض">
         <span class="ic"><svg role="img" aria-label="شراء أثاث مكاتب وشركات ومطاعم مستعمل بالرياض"><use href="#i-office"/></svg></span>
         <h3>شراء أثاث مكاتب وشركات ومطاعم</h3>
         <p>نشتري مكاتب الموظفين والكراسي والخزائن، وأثاث الفنادق والشقق المفروشة، ومعدات المطاعم والكافيهات بالجملة مع معاينة مجانية.</p>

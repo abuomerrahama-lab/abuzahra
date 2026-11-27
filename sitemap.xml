@@ -7,5 +7,12 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image><image:loc>https://abuzahra.abads.site/og-image.jpg</image:loc></image:image>
+    <image:image><image:loc>https://abuzahra.abads.site/img/pickup-800.webp</image:loc></image:image>
+    <image:image><image:loc>https://abuzahra.abads.site/img/bedroom-800.webp</image:loc></image:image>
+    <image:image><image:loc>https://abuzahra.abads.site/img/majlis-800.webp</image:loc></image:image>
+    <image:image><image:loc>https://abuzahra.abads.site/img/ac-800.webp</image:loc></image:image>
+    <image:image><image:loc>https://abuzahra.abads.site/img/appliances-800.webp</image:loc></image:image>
+    <image:image><image:loc>https://abuzahra.abads.site/img/kitchen-800.webp</image:loc></image:image>
+    <image:image><image:loc>https://abuzahra.abads.site/img/office-800.webp</image:loc></image:image>
   </url>
 </urlset>
